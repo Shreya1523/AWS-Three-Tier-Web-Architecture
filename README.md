@@ -68,8 +68,15 @@ This project implements a Three-Tier Architecture on AWS, consisting of a web se
 ![image](https://github.com/user-attachments/assets/61a39387-9ad8-42c9-ae9a-c0d92fbef86a)
 
 <h2>Step 6: Create DB Subnet Group & RDS</h2>
+
 - Create DB subnet group.
+
+![image](https://github.com/user-attachments/assets/8ddcdb33-389e-4111-bd4a-9a75dcff6e13)
+
 - Create RDS - Multi-AZ.
+
+![image](https://github.com/user-attachments/assets/469b1b7d-c983-472f-a324-9906c3caf983)
+
 - Place them in DB subnet group created above.
 
 Step 7: Create SNS for both App server and web server.<br>
