@@ -12,8 +12,12 @@ This project implements a Three-Tier Architecture on AWS, consisting of a web se
 
 - Create one S3 bucket for storing web-server & app-server code.
 
+![image](https://github.com/user-attachments/assets/78847c1a-8c53-4831-b4f1-fd968fcff6cb)
 
 - Create another S3 bucket for VPC flow logs.
+
+![image](https://github.com/user-attachments/assets/4f8b275d-7150-4088-9f15-7b43d0f9da5b)
+
 
 
 Step 3: Create IAM Role with Policies<br>
