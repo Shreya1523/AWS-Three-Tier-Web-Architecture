@@ -79,4 +79,33 @@ This project implements a Three-Tier Architecture on AWS, consisting of a web se
 
 - Place them in DB subnet group created above.
 
-Step 7: Create SNS for both App server and web server.<br>
+<h2>Step 7: Create Test App Server, Install Packages, Test Connections</h2>
+
+- Test App-Server Commands
+
+![image](https://github.com/user-attachments/assets/120c9236-29e7-4324-a016-f3bfe164a46e)
+
+- Create AMI.
+
+![image](https://github.com/user-attachments/assets/1b5a809b-ce97-4bf2-ba6c-51ca39292dad)
+
+- Create launch template using AMI.
+
+![image](https://github.com/user-attachments/assets/399a4cc9-703b-4e85-bfe6-389ac5c72f2d)
+
+- Create target group.
+
+![image](https://github.com/user-attachments/assets/ac695d24-0e95-46a1-b56a-1ff1bb9e4011)
+
+- Create internal load balancer.
+
+![image](https://github.com/user-attachments/assets/7ecb6174-cf7b-4ee1-a54c-0e4408f201a1)
+
+- Create autoscaling group.
+
+![image](https://github.com/user-attachments/assets/579780d0-3ae2-4a5e-8142-c023e475c407)
+
+<h2>Step 8: Create Test Web Server, Install Packages (Nginx, Node.js (React)), Test Connections</h2>
+
+- Test Web-Server Commands
+
