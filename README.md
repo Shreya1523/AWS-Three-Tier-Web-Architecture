@@ -9,3 +9,25 @@ Step 1: Download Code from GitHub in Your Local System
 Step 2: Create Two S3 Buckets <br>
 - Create one S3 bucket for storing web-server & app-server code.<br>
 - Create another S3 bucket for VPC flow logs.
+
+Step 3: Create IAM Role with Policies<br>
+- S3 read only.
+- SSM managed instance core.
+
+Step 4: Create VPC, Subnets, IGW, NAT-GW, RT<br>
+- Enable auto-assign public IP for web-tier public subnets.
+- Create flow logs for VPC & use the S3 bucket created above.
+
+Step 5: Create Security Groups<br>
+- External-Load-Balancer-SG --> HTTP (80): 0.0.0.0/0.
+- Web-Tier-SG --> HTTP --> Ext-LB-SG.
+- Internal-Load-Balancer-SG --> HTTP --> Web-Tier-SG.
+- App-Tier-SG --> Port 4000 --> Internal-LB-SG.
+- DB-Tier-SG --> MySQL (3306) --> App-Tier-SG.
+
+Step 6: Create DB Subnet Group & RDS<br>
+- Create DB subnet group.
+- Create RDS - Multi-AZ.
+- Place them in DB subnet group created above.
+
+Step 7: Create SNS for both App server and web server.<br>
