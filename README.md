@@ -4,7 +4,7 @@ This project implements a Three-Tier Architecture on AWS, consisting of a web se
 ![Architecture](https://github.com/user-attachments/assets/f24552f9-2c5d-461c-8e95-56f24b38171c)
 
 # Creating 3 Tier Architecture & Integrating Other AWS Resources
-**Step 1: Download Code from GitHub in Your Local System**
+<h2>**Step 1: Download Code from GitHub in Your Local System**</h2>
 
 **Step 2: Create Two S3 Buckets**
 
