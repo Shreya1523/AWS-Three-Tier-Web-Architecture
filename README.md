@@ -79,7 +79,11 @@ This project implements a Three-Tier Architecture on AWS, consisting of a web se
 
 - Place them in DB subnet group created above.
 
-<h2>Step 7: Create Test App Server, Install Packages, Test Connections</h2>
+<h2>Step 7: Create SNS for App Server and Web Server</h2>
+
+![image](https://github.com/user-attachments/assets/3dba9695-fa15-4f46-bb3e-229d9003040b)
+
+<h2>Step 8: Create Test App Server, Install Packages, Test Connections</h2>
 
 - Test App-Server Commands
 
@@ -105,7 +109,7 @@ This project implements a Three-Tier Architecture on AWS, consisting of a web se
 
 ![image](https://github.com/user-attachments/assets/579780d0-3ae2-4a5e-8142-c023e475c407)
 
-<h2>Step 8: Create Test Web Server, Install Packages (Nginx, Node.js (React)), Test Connections</h2>
+<h2>Step 9: Create Test Web Server, Install Packages (Nginx, Node.js (React)), Test Connections</h2>
 
 - Test Web-Server Commands
 
@@ -131,3 +135,29 @@ This project implements a Three-Tier Architecture on AWS, consisting of a web se
 
 ![image](https://github.com/user-attachments/assets/a398b605-196b-4eb7-920d-e0bd6ca9a015)
 
+<h2>Step 10: Add External-ALB-DNS Record in Route 53</h2>
+
+![image](https://github.com/user-attachments/assets/d45a0ec2-8b8e-444f-930f-eaac6f17ab4f)
+
+<h2>Step 11: Create CloudWatch Alarms Along with SNS</h2>
+
+![image](https://github.com/user-attachments/assets/613ffcf0-754a-4728-ac0e-0bf03f85b13e)
+
+<h2>Step 12: Create CloudTrail</h2>
+
+![image](https://github.com/user-attachments/assets/42d87161-484f-4624-b1e8-a8a94960a9e5)
+
+# Output
+
+![image](https://github.com/user-attachments/assets/3d741f94-1ebf-4da9-b8dd-796371e11c9a)
+
+<h2>Step 13: Deleting the Entire Infrastructure</h2>
+
+- Delete CloudWatch alarms.
+- Delete records from Route 53.
+- Delete load balancers, target groups, ASG, launch templates.
+- Delete security group.
+- Delete NAT gateway (it will take 5 mins).
+- Release elastic IP.
+- Delete VPC.
+- Delete RDS subnet group, RDS.
