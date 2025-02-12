@@ -6,7 +6,7 @@ This project implements a Three-Tier Architecture on AWS, consisting of a web se
 # Creating 3 Tier Architecture & Integrating Other AWS Resources
 <h2>Step 1: Download Code from GitHub in Your Local System</h2>
 
-**Step 2: Create Two S3 Buckets**
+<h2>Step 2: Create Two S3 Bucket</h2>
 
 ![image](https://github.com/user-attachments/assets/fe1ad413-a610-4a06-bce3-8b572c4e4f65)
 
@@ -18,13 +18,13 @@ This project implements a Three-Tier Architecture on AWS, consisting of a web se
 
 ![image](https://github.com/user-attachments/assets/4f8b275d-7150-4088-9f15-7b43d0f9da5b)
 
-**Step 3: Create IAM Role with Policies**
+<h2>Step 3: Create IAM Role with Policies</h2>
 - S3 read only.
 - SSM managed instance core.
 
 ![image](https://github.com/user-attachments/assets/3183634a-7e22-4b28-b231-1fd0412c3015)
 
-**Step 4: Create VPC, Subnets, IGW, NAT-GW, RT**
+<h2>Step 4: Create VPC, Subnets, IGW, NAT-GW, RT</h2>
 
 ![image](https://github.com/user-attachments/assets/3a94602e-94d9-448a-8040-214cfcaae73b)
 
@@ -44,7 +44,8 @@ This project implements a Three-Tier Architecture on AWS, consisting of a web se
 
 ![image](https://github.com/user-attachments/assets/4f8b275d-7150-4088-9f15-7b43d0f9da5b)
 
-Step 5: Create Security Groups<br>
+<h2>Step 5: Create Security Groups</h2>
+  
 - External-Load-Balancer-SG --> HTTP (80): 0.0.0.0/0.
 - Web-Tier-SG --> HTTP --> Ext-LB-SG.
 - Internal-Load-Balancer-SG --> HTTP --> Web-Tier-SG.
