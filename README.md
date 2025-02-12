@@ -25,8 +25,24 @@ This project implements a Three-Tier Architecture on AWS, consisting of a web se
 ![image](https://github.com/user-attachments/assets/3183634a-7e22-4b28-b231-1fd0412c3015)
 
 **Step 4: Create VPC, Subnets, IGW, NAT-GW, RT**
+
+![image](https://github.com/user-attachments/assets/3a94602e-94d9-448a-8040-214cfcaae73b)
+
+![image](https://github.com/user-attachments/assets/a0488618-8f9b-4efc-9782-d8703ba2e55e)
+
+![image](https://github.com/user-attachments/assets/0170cb2b-9df5-4a13-b588-e51d7e1e9594)
+
+![image](https://github.com/user-attachments/assets/d9603df8-a221-49f7-9dc8-bc795a399bfa)
+
+![image](https://github.com/user-attachments/assets/b55869bd-516e-4714-a0c7-255affc050ec)
+
 - Enable auto-assign public IP for web-tier public subnets.
+
+![image](https://github.com/user-attachments/assets/911ae19d-2edb-473c-82fb-f73f396c1941)
+
 - Create flow logs for VPC & use the S3 bucket created above.
+
+![image](https://github.com/user-attachments/assets/4f8b275d-7150-4088-9f15-7b43d0f9da5b)
 
 Step 5: Create Security Groups<br>
 - External-Load-Balancer-SG --> HTTP (80): 0.0.0.0/0.
