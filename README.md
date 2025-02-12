@@ -8,6 +8,8 @@ Step 1: Download Code from GitHub in Your Local System
 
 Step 2: Create Two S3 Buckets <br>
 - Create one S3 bucket for storing web-server & app-server code.
+![image](https://github.com/user-attachments/assets/fe1ad413-a610-4a06-bce3-8b572c4e4f65)
+
 ![1](https://github.com/user-attachments/assets/aee1131d-4982-4550-8bed-49aa4ef34f83)
 
 - Create another S3 bucket for VPC flow logs.
