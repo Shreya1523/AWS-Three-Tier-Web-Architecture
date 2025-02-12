@@ -1,4 +1,4 @@
-# AWS-Three-Tier-Web-Architecture
+![image](https://github.com/user-attachments/assets/126bdaef-b370-473f-9fcc-f024d1e9f06b)![image](https://github.com/user-attachments/assets/dec6930a-74e2-4d28-8745-872ae508fb08)# AWS-Three-Tier-Web-Architecture
 This project implements a Three-Tier Architecture on AWS, consisting of a web server, application server, and an Amazon RDS database. The infrastructure is manually configured to ensure scalability, security, and high availability. It includes setting up VPC networking, subnets, security groups, and other essential AWS services like Elastic Load Balancer and Auto Scaling to support a robust and fully functional deployment.
 # Architecture Overview
 ![Architecture](https://github.com/user-attachments/assets/f24552f9-2c5d-461c-8e95-56f24b38171c)
@@ -108,4 +108,26 @@ This project implements a Three-Tier Architecture on AWS, consisting of a web se
 <h2>Step 8: Create Test Web Server, Install Packages (Nginx, Node.js (React)), Test Connections</h2>
 
 - Test Web-Server Commands
+
+![image](https://github.com/user-attachments/assets/df198038-0d52-4711-8236-e94b0a09bfa9)
+
+- Create AMI.
+
+![image](https://github.com/user-attachments/assets/e2f7f3a1-416e-49ea-8a40-d94a1aa38206)
+
+- Create launch template using AMI.
+
+![image](https://github.com/user-attachments/assets/28737468-46fa-4b57-a1b6-cfa9cba95cbd)
+
+- Create target group.
+
+![image](https://github.com/user-attachments/assets/da885129-1c4e-4e5d-b698-f558b04d0409)
+
+- Create external load balancer.
+
+![image](https://github.com/user-attachments/assets/9047804f-02ba-481a-a816-66a5de1d672a)
+
+- Create autoscaling group.
+
+![image](https://github.com/user-attachments/assets/a398b605-196b-4eb7-920d-e0bd6ca9a015)
 
