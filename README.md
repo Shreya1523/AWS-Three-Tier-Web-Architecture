@@ -48,12 +48,26 @@ This project implements a Three-Tier Architecture on AWS, consisting of a web se
 <h2>Step 5: Create Security Groups</h2>
   
 - External-Load-Balancer-SG --> HTTP (80): 0.0.0.0/0.
+
+![image](https://github.com/user-attachments/assets/d15f0b03-0248-4eb5-a012-45328b7b8ba2)
+
 - Web-Tier-SG --> HTTP --> Ext-LB-SG.
+
+![image](https://github.com/user-attachments/assets/cced80cc-a330-4f6a-b6e6-424f753770e0)
+
 - Internal-Load-Balancer-SG --> HTTP --> Web-Tier-SG.
+
+![image](https://github.com/user-attachments/assets/9ac13837-11c3-4e41-89f6-c11bcca2886f)
+
 - App-Tier-SG --> Port 4000 --> Internal-LB-SG.
+
+![image](https://github.com/user-attachments/assets/a9b774a1-26f8-4db0-a3d2-739d6f47f7df)
+
 - DB-Tier-SG --> MySQL (3306) --> App-Tier-SG.
 
-Step 6: Create DB Subnet Group & RDS<br>
+![image](https://github.com/user-attachments/assets/61a39387-9ad8-42c9-ae9a-c0d92fbef86a)
+
+<h2>Step 6: Create DB Subnet Group & RDS</h2>
 - Create DB subnet group.
 - Create RDS - Multi-AZ.
 - Place them in DB subnet group created above.
