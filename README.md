@@ -81,7 +81,11 @@ This project implements a Three-Tier Architecture on AWS, consisting of a web se
 
 <h2>Step 7: Create SNS for App Server and Web Server</h2>
 
-![image](https://github.com/user-attachments/assets/3dba9695-fa15-4f46-bb3e-229d9003040b)
+![image](https://github.com/user-attachments/assets/8ab7015e-b228-4da6-aa8b-57b1b580aa28)
+
+![image](https://github.com/user-attachments/assets/62b8b8e0-b2b5-47e8-a163-5c424957baab)
+
+![image](https://github.com/user-attachments/assets/355b8a69-1899-4a67-830c-02abb627236c)
 
 <h2>Step 8: Create Test App Server, Install Packages, Test Connections</h2>
 
