@@ -6,6 +6,6 @@ This project implements a Three-Tier Architecture on AWS, consisting of a web se
 # Creating 3 Tier Architecture & Integrating Other AWS Resources
 Step 1: Download Code from GitHub in Your Local System
 
-Step 2: Create Two S3 Buckets
+Step 2: Create Two S3 Buckets <br>
 Create one S3 bucket for storing web-server & app-server code.
 Create another S3 bucket for VPC flow logs.
