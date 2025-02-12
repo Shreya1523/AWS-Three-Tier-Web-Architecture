@@ -6,7 +6,7 @@ This project implements a Three-Tier Architecture on AWS, consisting of a web se
 # Creating 3 Tier Architecture & Integrating Other AWS Resources
 **Step 1: Download Code from GitHub in Your Local System**
 
-**Step 2: Create Two S3 Buckets**<br>
+**Step 2: Create Two S3 Buckets**
 
 ![image](https://github.com/user-attachments/assets/fe1ad413-a610-4a06-bce3-8b572c4e4f65)
 
@@ -20,9 +20,11 @@ This project implements a Three-Tier Architecture on AWS, consisting of a web se
 
 
 
-Step 3: Create IAM Role with Policies<br>
+**Step 3: Create IAM Role with Policies**
 - S3 read only.
 - SSM managed instance core.
+![image](https://github.com/user-attachments/assets/3183634a-7e22-4b28-b231-1fd0412c3015)
+
 
 Step 4: Create VPC, Subnets, IGW, NAT-GW, RT<br>
 - Enable auto-assign public IP for web-tier public subnets.
