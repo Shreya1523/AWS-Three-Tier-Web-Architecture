@@ -19,7 +19,7 @@ This project implements a Three-Tier Architecture on AWS, consisting of a web se
 ![image](https://github.com/user-attachments/assets/4f8b275d-7150-4088-9f15-7b43d0f9da5b)
 
 <h2>Step 3: Create IAM Role with Policies</h2>
-- S3 read only.<br>
+- Create one S3 bucket for storing web-server & app-server code.<br>
 - SSM managed instance core.
 
 ![image](https://github.com/user-attachments/assets/3183634a-7e22-4b28-b231-1fd0412c3015)
