@@ -7,8 +7,8 @@ This project implements a Three-Tier Architecture on AWS, consisting of a web se
 Step 1: Download Code from GitHub in Your Local System
 
 Step 2: Create Two S3 Buckets <br>
-- Create one S3 bucket for storing web-server & app-server code.
-![1](https://github.com/user-attachments/assets/aee1131d-4982-4550-8bed-49aa4ef34f83)<br>
+- Create one S3 bucket for storing web-server & app-server code.<br>
+![1](https://github.com/user-attachments/assets/aee1131d-4982-4550-8bed-49aa4ef34f83)
 
 - Create another S3 bucket for VPC flow logs.
 
